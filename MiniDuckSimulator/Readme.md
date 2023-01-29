@@ -20,7 +20,9 @@ We need to have a maintainable, flexible and reusable pattern for initializing t
 ### Design Principles
 
 -Identity the aspects of your application that vary and separate them from what stays same. 
+
 -Program to interface, not implementation.
+
 -Favor composition over inheritance.
 
 ### Solution
