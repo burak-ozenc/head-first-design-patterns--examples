@@ -1,11 +1,11 @@
 ﻿using MiniDuckSimulator.Behaviours.Abstractions;
 using MiniDuckSimulator.Behaviours.DynamicBehaviours.Fly;
 using MiniDuckSimulator.Behaviours.DynamicBehaviours.Quack;
-using MiniDuckSimulator.Ducks.Base;
+using MiniDuckSimulator.Duck.Base;
 
-namespace MiniDuckSimulator.Ducks.Types;
+namespace MiniDuckSimulator.Duck.Types;
 
-public class RubberDuck : Duck
+public class RubberDuck : Base.Duck
 {
     public RubberDuck()
     {

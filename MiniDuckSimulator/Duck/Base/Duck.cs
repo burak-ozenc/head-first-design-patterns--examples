@@ -1,6 +1,6 @@
 ﻿using MiniDuckSimulator.Behaviours.Abstractions;
 
-namespace MiniDuckSimulator.Ducks.Base;
+namespace MiniDuckSimulator.Duck.Base;
 
 public abstract class Duck
 {

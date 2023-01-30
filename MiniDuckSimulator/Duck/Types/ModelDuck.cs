@@ -1,10 +1,10 @@
 ﻿using MiniDuckSimulator.Behaviours.DynamicBehaviours.Fly;
 using MiniDuckSimulator.Behaviours.DynamicBehaviours.Quack;
-using MiniDuckSimulator.Ducks.Base;
 
-namespace MiniDuckSimulator.Ducks.Types;
 
-public class ModelDuck : Duck
+namespace MiniDuckSimulator.Duck.Types;
+
+public class ModelDuck : Base.Duck
 {
     public ModelDuck()
     {

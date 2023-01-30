@@ -1,8 +1,8 @@
 ﻿// MiniDuckSimulator
 
 using MiniDuckSimulator.Behaviours.DynamicBehaviours.Fly;
-using MiniDuckSimulator.Ducks.Base;
-using MiniDuckSimulator.Ducks.Types;
+using MiniDuckSimulator.Duck.Base;
+using MiniDuckSimulator.Duck.Types;
 
 Duck mallard = new MallardDuck();
 {
