@@ -6,10 +6,24 @@ using WeatherStation.WeatherData;
 
 WeatherData weatherData = new WeatherData();
 {
+    Console.WriteLine("Start with one observer");
     CurrentConditionDisplay currentDisplay = new CurrentConditionDisplay(weatherData);
     
     weatherData.SetMeasurements(52,23,43.2f);
-    weatherData.SetMeasurements(42,13,33.2f);
-    weatherData.SetMeasurements(62,33,53.2f);
     
+    Console.WriteLine();
+    Console.WriteLine();
+    
+    Console.WriteLine("Another observer added");
+    CurrentConditionDisplay currentDisplay2 = new CurrentConditionDisplay(weatherData);
+    
+    weatherData.SetMeasurements(32,53,23.2f);
+    
+    Console.WriteLine();
+    Console.WriteLine();
+    
+    Console.WriteLine("One observer removed");
+    weatherData.RemoveObserver(currentDisplay2);
+    
+    weatherData.SetMeasurements(42,13,33.2f);
 }
