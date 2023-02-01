@@ -26,10 +26,10 @@ Also the display data should be available for third party consumers.
 
 We have publisher, WeatherData, and subscriber which is CurrentConditionDisplay.
 
-WeatherData class inherits from ISubject, CurrentConditionDisplay class  inherits from IDisplay and IObject classes.
+WeatherData class has interface ISubject, CurrentConditionDisplay class  has interfaces IDisplay and IObject classes.
 
 When WeatherData class get updated, it automatically updates the registered Display classes(observers).
 
 Any subscriber can be added or removed on runtime.
 
-Also WeatherData class is loosely coupled, unaware of the observer objects, so that it can handle any kind of display and subscriber.
+Also WeatherData and CurrentConditionDisplay classes is loosely coupled, unaware of the each other, so that it can handle any kind of display and subscriber.
