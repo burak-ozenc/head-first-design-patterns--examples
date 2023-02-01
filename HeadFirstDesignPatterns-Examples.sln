@@ -1,10 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniDuckSimulator", "MiniDuckSimulator\MiniDuckSimulator.csproj", "{CC57280A-93DC-437B-BFAB-9A5B8E93E831}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy.MiniDuckSimulator", "Strategy.MiniDuckSimulator\Strategy.MiniDuckSimulator.csproj", "{CC57280A-93DC-437B-BFAB-9A5B8E93E831}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherStation", "WeatherStation\WeatherStation.csproj", "{8E475FEB-CD9A-4DB4-9E93-5A81939F5001}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer.WeatherStation", "Observer.WeatherStation\Observer.WeatherStation.csproj", "{8E475FEB-CD9A-4DB4-9E93-5A81939F5001}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarBuzz", "StarBuzz\StarBuzz.csproj", "{BC59A451-7383-4D31-A7CF-00B16C2CE1FF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.StarBuzz", "Decorator.StarBuzz\Decorator.StarBuzz.csproj", "{BC59A451-7383-4D31-A7CF-00B16C2CE1FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

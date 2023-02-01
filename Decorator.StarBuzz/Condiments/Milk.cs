@@ -1,7 +1,7 @@
-﻿using StarBuzz.Coffee;
-using StarBuzz.Decorators;
+﻿using Decorator.StarBuzz.Coffee;
+using Decorator.StarBuzz.Decorators;
 
-namespace StarBuzz.Condiments;
+namespace Decorator.StarBuzz.Condiments;
 
 public class Milk : CondimentDecorator
 {

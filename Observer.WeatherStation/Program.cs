@@ -1,8 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using WeatherStation;
-using WeatherStation.Display;
-using WeatherStation.WeatherData;
+using Observer.WeatherStation;
+using Observer.WeatherStation.Display;
+using Observer.WeatherStation.WeatherData;
 
 WeatherData weatherData = new WeatherData();
 {

@@ -1,6 +1,6 @@
-﻿using StarBuzz.Coffee;
+﻿using Decorator.StarBuzz.Coffee;
 
-namespace StarBuzz.Decorators;
+namespace Decorator.StarBuzz.Decorators;
 
 public abstract class CondimentDecorator : Beverage
 {

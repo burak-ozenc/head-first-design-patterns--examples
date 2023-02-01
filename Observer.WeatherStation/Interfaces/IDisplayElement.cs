@@ -1,4 +1,4 @@
-﻿namespace WeatherStation.Interfaces;
+﻿namespace Observer.WeatherStation.Interfaces;
 
 public interface IDisplayElement
 {

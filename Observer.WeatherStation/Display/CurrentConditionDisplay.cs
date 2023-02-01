@@ -1,6 +1,6 @@
-﻿using WeatherStation.Interfaces;
+﻿using Observer.WeatherStation.Interfaces;
 
-namespace WeatherStation.Display;
+namespace Observer.WeatherStation.Display;
 
 public class CurrentConditionDisplay : IObserver, IDisplayElement
 {

@@ -1,4 +1,4 @@
-﻿namespace StarBuzz.Coffee.Types;
+﻿namespace Decorator.StarBuzz.Coffee.Types;
 
 public class DarkRoast : Beverage
 {

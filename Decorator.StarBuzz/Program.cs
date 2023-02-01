@@ -1,6 +1,6 @@
-﻿using StarBuzz.Coffee;
-using StarBuzz.Coffee.Types;
-using StarBuzz.Condiments;
+﻿using Decorator.StarBuzz.Coffee;
+using Decorator.StarBuzz.Coffee.Types;
+using Decorator.StarBuzz.Condiments;
 
 
 Beverage coffee1 = new DarkRoast();

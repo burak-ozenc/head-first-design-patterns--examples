@@ -1,7 +1,7 @@
 ﻿using System.Collections;
-using WeatherStation.Interfaces;
+using Observer.WeatherStation.Interfaces;
 
-namespace WeatherStation.WeatherData;
+namespace Observer.WeatherStation.WeatherData;
 
 public class WeatherData : ISubject
 {
