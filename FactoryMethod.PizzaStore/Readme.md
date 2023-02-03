@@ -17,3 +17,8 @@ Also we should be able to apply different techniques after preparation (eg: New 
 Depend upon abstractions. Do not depend upon concrete classes.
 
 ### Solution
+In Factory Method Pattern, we need abstract creator and product with their concrete implementations.
+All our application depends upon abstract Pizza class.
+Object creation handled by inheritance.
+Our abstract creator is PizzaStore and concrete creators branches(NYPizzaStore, ChicagoPizzaStore).
+Our product is Pizza and concrete products are pizza types(NYStyleCheesePizza, etc.).
