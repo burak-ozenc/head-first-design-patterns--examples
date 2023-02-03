@@ -26,8 +26,3 @@ Create abstract Beverage class, all coffee types should inherit from this abstra
 Create an abstract CondimentDecorator class( : Beverage) and all condiments should inherit from this class.
 
 At run time, wrap the desired coffee object with the decorator(s), and override the description and cost the coffee object.
-
-
-### Downs
- If I want to floor the final result of cost, I have to change all the decorators. 
- So this is not practically good for code re-use.

@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer.WeatherStation", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.StarBuzz", "Decorator.StarBuzz\Decorator.StarBuzz.csproj", "{BC59A451-7383-4D31-A7CF-00B16C2CE1FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod.PizzaStore", "FactoryMethod.PizzaStore\FactoryMethod.PizzaStore.csproj", "{17978582-4B02-405C-A6D7-C52499B70D00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{BC59A451-7383-4D31-A7CF-00B16C2CE1FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC59A451-7383-4D31-A7CF-00B16C2CE1FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC59A451-7383-4D31-A7CF-00B16C2CE1FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17978582-4B02-405C-A6D7-C52499B70D00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17978582-4B02-405C-A6D7-C52499B70D00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17978582-4B02-405C-A6D7-C52499B70D00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17978582-4B02-405C-A6D7-C52499B70D00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
