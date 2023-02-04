@@ -9,5 +9,5 @@ public class AdanaIngredientFactory : LahmacunIngredientFactory
 
     public IMincemeat CreateMincemeat() => new Mincemeat();
 
-    public virtual IPepper CreatePepper() => new Isot();
+    public IPepper CreatePepper() => new Isot();
 }

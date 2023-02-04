@@ -16,4 +16,8 @@ To provide consistency and loose coupling on our system, we will use Abstract Fa
 Depend upon abstractions. Do not depend on concrete classes.
 
 ### Solution
-Our Creator and Product abstract classes will remain same(compared to the FactoryMethod.PizzaStore)
+Our Creator and Product abstract classes will handle Lahmacun creation.
+LahmacunIngredientFactory will be implemented as Abstract Factory because we need to create families of products(ingredients).
+Each concrete IngredientFactory creates a family of products.
+Abstract Factory relies on inheritance: object creation is implemented in methods exposed in the factory interface.
+Dependency Inversion guides us to avoid dependencies on concrete types  to strive for abstractions.  
