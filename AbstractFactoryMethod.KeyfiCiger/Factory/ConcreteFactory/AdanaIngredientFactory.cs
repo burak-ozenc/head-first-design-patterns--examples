@@ -1,5 +1,5 @@
 ﻿using AbstractFactoryMethod.KeyfiCiger.Ingredients.ConcreteIngredients;
-using AbstractFactoryMethod.KeyfiCiger.Ingredients.IngredientAbstractions;
+using AbstractFactoryMethod.KeyfiCiger.Ingredients.AbstractIngredients;
 
 namespace AbstractFactoryMethod.KeyfiCiger.Factory.ConcreteFactory;
 
@@ -10,5 +10,4 @@ public class AdanaIngredientFactory : LahmacunIngredientFactory
     public IMincemeat CreateMincemeat() => new Mincemeat();
 
     public virtual IPepper CreatePepper() => new Isot();
-    // public IPepper CreatePepper(bool isHot) => isHot ? new Isot() : new GreenPepper();
 }

@@ -1,14 +1,15 @@
-﻿using AbstractFactoryMethod.KeyfiCiger.Ingredients.IngredientAbstractions;
+﻿using AbstractFactoryMethod.KeyfiCiger.Ingredients.AbstractIngredients;
 
 namespace AbstractFactoryMethod.KeyfiCiger.Product;
 
 public abstract class Lahmacun
 {
-    protected Lahmacun() { }
+    // protected Lahmacun() { }
+    
     private string Name;
-    protected IDough _dough;
-    protected IMincemeat _mincemeat;
-    protected IPepper _pepper;
+    protected IDough Dough;
+    protected IMincemeat Mincemeat;
+    protected IPepper Pepper;
 
     public abstract void Prepare();
 
@@ -28,16 +29,11 @@ public abstract class Lahmacun
         Console.WriteLine("Islak mendil istemeyi unutmayin.");
     }
 
-    public void SetName(string name)
+    protected void SetName(string name)
     {
         Name = name;
     }
 
     public string GetName() => Name;
-
-    public string ConvertToString()
-    {
-        // 
-        return ";";
-    }
+    
 }

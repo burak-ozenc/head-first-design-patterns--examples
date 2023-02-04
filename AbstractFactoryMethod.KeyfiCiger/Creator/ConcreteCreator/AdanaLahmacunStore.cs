@@ -1,7 +1,7 @@
 ﻿using AbstractFactoryMethod.KeyfiCiger.Factory;
 using AbstractFactoryMethod.KeyfiCiger.Factory.ConcreteFactory;
 using AbstractFactoryMethod.KeyfiCiger.Product;
-using AbstractFactoryMethod.KeyfiCiger.Product.Types;
+using AbstractFactoryMethod.KeyfiCiger.Product.ConcreteProducts;
 
 namespace AbstractFactoryMethod.KeyfiCiger.Creator.ConcreteCreator;
 

@@ -1,6 +1,6 @@
 ﻿using AbstractFactoryMethod.KeyfiCiger.Factory;
 
-namespace AbstractFactoryMethod.KeyfiCiger.Product.Types;
+namespace AbstractFactoryMethod.KeyfiCiger.Product.ConcreteProducts;
 
 public class AdanaLahmacun : Lahmacun
 {
@@ -16,11 +16,11 @@ public class AdanaLahmacun : Lahmacun
         SetName("Adana Usulu Acili Lahmacun");
         Console.WriteLine(GetName + " hazirlaniyor.");
 
-        _dough = _lahmacunIngredientFactory.CreateDough();
-        Console.WriteLine(_dough.ConvertToString());
-        _mincemeat = _lahmacunIngredientFactory.CreateMincemeat();
-        Console.WriteLine(_mincemeat.ConvertToString());
-        _pepper = _lahmacunIngredientFactory.CreatePepper();
-        Console.WriteLine(_pepper.ConvertToString());
+        Dough = _lahmacunIngredientFactory.CreateDough();
+        Console.WriteLine(Dough.ConvertToString());
+        Mincemeat = _lahmacunIngredientFactory.CreateMincemeat();
+        Console.WriteLine(Mincemeat.ConvertToString());
+        Pepper = _lahmacunIngredientFactory.CreatePepper();
+        Console.WriteLine(Pepper.ConvertToString());
     }
 }

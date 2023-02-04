@@ -6,7 +6,6 @@ public abstract class Pizza
 {
     protected string Name;
     protected string Dough;
-    protected string Sauce;
     protected readonly  ArrayList Toppings = new ();
 
     public void Prepare()

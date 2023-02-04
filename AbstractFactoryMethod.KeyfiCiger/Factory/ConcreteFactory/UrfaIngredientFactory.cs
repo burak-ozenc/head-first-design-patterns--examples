@@ -1,9 +1,9 @@
 ﻿using AbstractFactoryMethod.KeyfiCiger.Ingredients.ConcreteIngredients;
-using AbstractFactoryMethod.KeyfiCiger.Ingredients.IngredientAbstractions;
+using AbstractFactoryMethod.KeyfiCiger.Ingredients.AbstractIngredients;
 
 namespace AbstractFactoryMethod.KeyfiCiger.Factory.ConcreteFactory;
 
-public class IstanbulIngredientFactory : LahmacunIngredientFactory
+public class UrfaIngredientFactory : LahmacunIngredientFactory
 {
     public IDough CreateDough() => new Dough();
 

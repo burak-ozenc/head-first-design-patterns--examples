@@ -8,7 +8,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.StarBuzz", "Decor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod.PizzaStore", "FactoryMethod.PizzaStore\FactoryMethod.PizzaStore.csproj", "{17978582-4B02-405C-A6D7-C52499B70D00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryMethod.KebapStore", "AbstractFactoryMethod.KebapStore\AbstractFactoryMethod.KebapStore.csproj", "{9FC84C74-A9B0-4116-88D3-765B410862E7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryMethod.KeyfiCiger", "AbstractFactoryMethod.KeyfiCiger\AbstractFactoryMethod.KeyfiCiger.csproj", "{9FC84C74-A9B0-4116-88D3-765B410862E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

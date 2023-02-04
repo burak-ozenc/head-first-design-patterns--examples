@@ -1,5 +1,4 @@
-﻿using AbstractFactoryMethod.KeyfiCiger.Ingredients.ConcreteIngredients;
-using AbstractFactoryMethod.KeyfiCiger.Ingredients.IngredientAbstractions;
+﻿using AbstractFactoryMethod.KeyfiCiger.Ingredients.AbstractIngredients;
 
 namespace AbstractFactoryMethod.KeyfiCiger.Factory;
 
