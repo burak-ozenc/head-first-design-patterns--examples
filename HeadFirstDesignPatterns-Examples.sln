@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod.PizzaStore", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryMethod.KeyfiCiger", "AbstractFactoryMethod.KeyfiCiger\AbstractFactoryMethod.KeyfiCiger.csproj", "{9FC84C74-A9B0-4116-88D3-765B410862E7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.ChocolateFactory", "Singleton.ChocolateFactory\Singleton.ChocolateFactory.csproj", "{51861AED-7C40-49B1-933E-78B7AF6E68F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{9FC84C74-A9B0-4116-88D3-765B410862E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FC84C74-A9B0-4116-88D3-765B410862E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FC84C74-A9B0-4116-88D3-765B410862E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51861AED-7C40-49B1-933E-78B7AF6E68F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51861AED-7C40-49B1-933E-78B7AF6E68F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51861AED-7C40-49B1-933E-78B7AF6E68F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51861AED-7C40-49B1-933E-78B7AF6E68F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
