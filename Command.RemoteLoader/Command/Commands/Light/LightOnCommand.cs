@@ -2,22 +2,22 @@
 
 public class LightOnCommand : ICommand 
 {
-    private CommandObjects.Light _light;
-    private string _place;
+    private readonly CommandObjects.Light _light;
+    private readonly string _location;
 
-    public LightOnCommand(CommandObjects.Light light, string place)
+    public LightOnCommand(CommandObjects.Light light, string location)
     {
         _light = light;
-        _place = place;
+        _location = location;
     }
 
     public void Execute()
     {
-        _light.On(_place);
+        _light.On(_location);
     }
 
     public void Undo()
     {
-        _light.Off(_place);
+        _light.Off(_location);
     }
 }

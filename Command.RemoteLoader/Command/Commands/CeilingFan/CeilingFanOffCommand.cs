@@ -3,7 +3,7 @@
 public class CeilingFanOffCommand : ICommand
 {
     private CommandObjects.CeilingFan _ceilingFan;
-    private string _location;
+    private readonly string _location;
     private int previousSpeed;
 
     public CeilingFanOffCommand(CommandObjects.CeilingFan ceilingFan, string location)
