@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.ChocolateFactory"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command.RemoteLoader", "Command.RemoteLoader\Command.RemoteLoader.csproj", "{D0AFA63F-4020-40EA-BC2D-671BD1FB510A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter.TurkeySimulator", "Adapter.TurkeySimulator\Adapter.TurkeySimulator.csproj", "{756DA96E-6362-48EA-A17C-D964FA579760}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{D0AFA63F-4020-40EA-BC2D-671BD1FB510A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0AFA63F-4020-40EA-BC2D-671BD1FB510A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0AFA63F-4020-40EA-BC2D-671BD1FB510A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{756DA96E-6362-48EA-A17C-D964FA579760}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{756DA96E-6362-48EA-A17C-D964FA579760}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{756DA96E-6362-48EA-A17C-D964FA579760}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{756DA96E-6362-48EA-A17C-D964FA579760}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
