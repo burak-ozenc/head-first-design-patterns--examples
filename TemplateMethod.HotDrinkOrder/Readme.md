@@ -1,4 +1,4 @@
-﻿# Chapter 8 - Part1 - HotDrinkOrder
+﻿# Chapter 8 - HotDrinkOrder
 
 ## Template Method Pattern
 

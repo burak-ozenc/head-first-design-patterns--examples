@@ -18,7 +18,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter.TurkeySimulator", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade.HomeTheatre", "Facade.HomeTheatre\Facade.HomeTheatre.csproj", "{8981294B-F7DB-40BA-B684-A0D6DBC13B6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod.Part1.HotDrinkOrder", "TemplateMethod.Part1.HotDrinkOrder\TemplateMethod.Part1.HotDrinkOrder.csproj", "{B22BF0A3-80DF-4666-9287-A369ED5D65C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod.HotDrinkOrder", "TemplateMethod.HotDrinkOrder\TemplateMethod.HotDrinkOrder.csproj", "{B22BF0A3-80DF-4666-9287-A369ED5D65C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator.ObjectvilleDinerHouse-PancakeHouseMerge", "Iterator.ObjectvilleDinerHouse-PancakeHouseMerge\Iterator.ObjectvilleDinerHouse-PancakeHouseMerge.csproj", "{56EDE9F0-CF43-4477-8AFC-74B5D12196DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -66,5 +68,9 @@ Global
 		{B22BF0A3-80DF-4666-9287-A369ED5D65C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B22BF0A3-80DF-4666-9287-A369ED5D65C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B22BF0A3-80DF-4666-9287-A369ED5D65C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56EDE9F0-CF43-4477-8AFC-74B5D12196DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56EDE9F0-CF43-4477-8AFC-74B5D12196DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56EDE9F0-CF43-4477-8AFC-74B5D12196DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56EDE9F0-CF43-4477-8AFC-74B5D12196DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
