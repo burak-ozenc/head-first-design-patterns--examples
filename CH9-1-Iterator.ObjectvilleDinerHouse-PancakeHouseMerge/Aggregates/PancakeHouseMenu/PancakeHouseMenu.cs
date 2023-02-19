@@ -1,10 +1,10 @@
 ﻿using System.Collections;
-using Iterator.ObjectvilleDinerHouse_PancakeHouseMerge.ConcreteAggregates.Common;
+using Iterator.ObjectvilleDinerHouse_PancakeHouseMerge.Aggregates.Common;
 using Iterator.ObjectvilleDinerHouse_PancakeHouseMerge.Iterator.ConcreteIterator;
 
-namespace Iterator.ObjectvilleDinerHouse_PancakeHouseMerge.ConcreteAggregates.PancakeHouseMenu;
+namespace Iterator.ObjectvilleDinerHouse_PancakeHouseMerge.Aggregates.PancakeHouseMenu;
 
-public class PancakeHouseMenu
+public class PancakeHouseMenu : IMenu
 {
     private ArrayList menuItems;
 
@@ -17,15 +17,10 @@ public class PancakeHouseMenu
         AddItem("2 - some pancake", "2 - some pancake desc", false, 3.11);
     }
 
-    protected void AddItem(string name, string desc, bool vegetarian, double price)
+    public void AddItem(string name, string desc, bool vegetarian, double price)
     {
         MenuItem menuItem = new MenuItem(name, desc, vegetarian, price);
         menuItems.Add(menuItem);
-    }
-
-    protected ArrayList GetMenuItems()
-    {
-        return menuItems;
     }
 
     public Iterator.Iterator CreateIterator()

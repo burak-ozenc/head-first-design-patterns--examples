@@ -1,15 +1,14 @@
 ﻿using System.Collections;
-using Iterator.ObjectvilleDinerHouse_PancakeHouseMerge.ConcreteAggregates.Common;
-using Iterator.ObjectvilleDinerHouse_PancakeHouseMerge.ConcreteAggregates.PancakeHouseMenu;
+using CH9_2_Composite.AllMenuShop.Menu;
 
-namespace Iterator.ObjectvilleDinerHouse_PancakeHouseMerge.Iterator.ConcreteIterator;
+namespace CH9_2_Composite.AllMenuShop.Iterator.ConcreteIterator;
 
-public class PancakeHouseMenuIterator : Iterator
+public class PancakeHouseMenuIIterator : IIterator
 {
     private ArrayList items;
     private int position = 0;
 
-    public PancakeHouseMenuIterator(ArrayList items)
+    public PancakeHouseMenuIIterator(ArrayList items)
     {
         this.items = items;
     }

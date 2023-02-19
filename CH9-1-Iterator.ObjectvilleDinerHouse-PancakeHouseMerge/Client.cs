@@ -1,18 +1,18 @@
-﻿using Iterator.ObjectvilleDinerHouse_PancakeHouseMerge.ConcreteAggregates.Common;
-using Iterator.ObjectvilleDinerHouse_PancakeHouseMerge.ConcreteAggregates.DinerMenu;
-using Iterator.ObjectvilleDinerHouse_PancakeHouseMerge.ConcreteAggregates.PancakeHouseMenu;
+﻿using Iterator.ObjectvilleDinerHouse_PancakeHouseMerge.Aggregates.Common;
+using Iterator.ObjectvilleDinerHouse_PancakeHouseMerge.Aggregates.DinerMenu;
+using Iterator.ObjectvilleDinerHouse_PancakeHouseMerge.Aggregates.PancakeHouseMenu;
 
 namespace Iterator.ObjectvilleDinerHouse_PancakeHouseMerge;
 
 public class Client
 {
-    private PancakeHouseMenu pancakeHouseMenu;
+    private PancakeHouseMenu _pancakeHouseMenu;
     private DinerMenu _dinerMenu;
 
     public Client(PancakeHouseMenu pancakeHouseMenu, DinerMenu dinerHouseMenu)
     {
-        this.pancakeHouseMenu = pancakeHouseMenu;
-        this._dinerMenu = dinerHouseMenu;
+        _pancakeHouseMenu = pancakeHouseMenu;
+        _dinerMenu = dinerHouseMenu;
     }
 
     public void PrintMenu()

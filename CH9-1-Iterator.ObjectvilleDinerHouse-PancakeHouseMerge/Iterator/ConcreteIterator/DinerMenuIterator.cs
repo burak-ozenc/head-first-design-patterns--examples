@@ -1,4 +1,4 @@
-﻿using Iterator.ObjectvilleDinerHouse_PancakeHouseMerge.ConcreteAggregates.Common;
+﻿using Iterator.ObjectvilleDinerHouse_PancakeHouseMerge.Aggregates.Common;
 
 namespace Iterator.ObjectvilleDinerHouse_PancakeHouseMerge.Iterator.ConcreteIterator;
 

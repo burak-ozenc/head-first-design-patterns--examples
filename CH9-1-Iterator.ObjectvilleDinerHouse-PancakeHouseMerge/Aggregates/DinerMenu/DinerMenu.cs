@@ -1,11 +1,9 @@
-﻿using System.Collections;
-using Iterator.ObjectvilleDinerHouse_PancakeHouseMerge.ConcreteAggregates.Common;
-using Iterator.ObjectvilleDinerHouse_PancakeHouseMerge.ConcreteAggregates.PancakeHouseMenu;
+﻿using Iterator.ObjectvilleDinerHouse_PancakeHouseMerge.Aggregates.Common;
 using Iterator.ObjectvilleDinerHouse_PancakeHouseMerge.Iterator.ConcreteIterator;
 
-namespace Iterator.ObjectvilleDinerHouse_PancakeHouseMerge.ConcreteAggregates.DinerMenu;
+namespace Iterator.ObjectvilleDinerHouse_PancakeHouseMerge.Aggregates.DinerMenu;
 
-public class DinerMenu
+public class DinerMenu : IMenu
 {
     private readonly int MAX_ITEMS = 6;
     private int numberOfItems = 0;
@@ -20,7 +18,7 @@ public class DinerMenu
         AddItem("2 - Some Dinner", "2 - Some desc", true, 1.99);
     }
 
-    private void AddItem(string name, string desc, bool vegetarian, double price)
+    public void AddItem(string name, string desc, bool vegetarian, double price)
     {
         MenuItem menuItem = new MenuItem(name, desc, vegetarian, price);
 
