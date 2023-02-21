@@ -1,8 +1,8 @@
-﻿using Iterator.ObjectvilleDinerHouse_PancakeHouseMerge.Aggregates.Common;
-using Iterator.ObjectvilleDinerHouse_PancakeHouseMerge.Aggregates.DinerMenu;
-using Iterator.ObjectvilleDinerHouse_PancakeHouseMerge.Aggregates.PancakeHouseMenu;
+﻿using Iterator.MenuMerge.Aggregates.Common;
+using Iterator.MenuMerge.Aggregates.DinerMenu;
+using Iterator.MenuMerge.Aggregates.PancakeHouseMenu;
 
-namespace Iterator.ObjectvilleDinerHouse_PancakeHouseMerge;
+namespace Iterator.MenuMerge;
 
 public class Client
 {

@@ -20,9 +20,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade.HomeTheatre", "Facad
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod.HotDrinkOrder", "TemplateMethod.HotDrinkOrder\TemplateMethod.HotDrinkOrder.csproj", "{B22BF0A3-80DF-4666-9287-A369ED5D65C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CH9-1-Iterator.ObjectvilleDinerHouse-PancakeHouseMerge", "CH9-1-Iterator.ObjectvilleDinerHouse-PancakeHouseMerge\CH9-1-Iterator.ObjectvilleDinerHouse-PancakeHouseMerge.csproj", "{56EDE9F0-CF43-4477-8AFC-74B5D12196DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator.MenuMerge", "Iterator.MenuMerge\Iterator.MenuMerge.csproj", "{56EDE9F0-CF43-4477-8AFC-74B5D12196DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CH9-2-Composite.AllMenuShop", "CH9-2-Composite.AllMenuShop\CH9-2-Composite.AllMenuShop.csproj", "{CB6A2310-E997-4D05-A3E5-53E6893681AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite.MultipleAndSubmenu", "Composite.MultipleAndSubmenu\Composite.MultipleAndSubmenu.csproj", "{CB6A2310-E997-4D05-A3E5-53E6893681AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

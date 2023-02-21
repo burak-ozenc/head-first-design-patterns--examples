@@ -1,6 +1,6 @@
-﻿using Iterator.ObjectvilleDinerHouse_PancakeHouseMerge.Aggregates.Common;
+﻿using Iterator.MenuMerge.Aggregates.Common;
 
-namespace Iterator.ObjectvilleDinerHouse_PancakeHouseMerge.Iterator.ConcreteIterator;
+namespace Iterator.MenuMerge.Iterator.ConcreteIterator;
 
 public class DinerMenuIterator : Iterator
 {

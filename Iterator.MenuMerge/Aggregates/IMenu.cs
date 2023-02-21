@@ -1,4 +1,4 @@
-﻿namespace Iterator.ObjectvilleDinerHouse_PancakeHouseMerge.Aggregates;
+﻿namespace Iterator.MenuMerge.Aggregates;
 
 public interface IMenu
 {

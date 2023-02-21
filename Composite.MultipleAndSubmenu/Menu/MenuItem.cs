@@ -1,4 +1,6 @@
-﻿namespace CH9_2_Composite.AllMenuShop.Menu;
+﻿using Composite.MultipleAndSubmenu.Iterator;
+
+namespace Composite.MultipleAndSubmenu.Menu;
 
 public class MenuItem : MenuComponent
 {
@@ -25,17 +27,17 @@ public class MenuItem : MenuComponent
 
     public override void Add(MenuComponent menuComponent)
     {
-        throw new NotImplementedException();
+        throw new NotSupportedException();
     }
 
     public override void Remove(MenuComponent menuComponent)
     {
-        throw new NotImplementedException();
+        throw new NotSupportedException();
     }
 
-    public override void GetChild(int i)
+    public override MenuComponent GetChild(int i)
     {
-        throw new NotImplementedException();
+        throw new NotSupportedException();
     }
 
     public override void Print()
@@ -43,5 +45,10 @@ public class MenuItem : MenuComponent
         Console.WriteLine(" " + GetName() + (IsVegetarian() ? ", (v)" : ""));
         Console.WriteLine(GetPrice());
         Console.WriteLine("--" + GetDescription());
+    }
+
+    public override IEnumerator<MenuComponent> CreateIterator()
+    {
+        return new NullIterator();
     }
 }

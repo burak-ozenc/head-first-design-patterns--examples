@@ -1,4 +1,4 @@
-﻿namespace CH9_2_Composite.AllMenuShop.Menu;
+﻿namespace Composite.MultipleAndSubmenu.Menu;
 
 public abstract class MenuComponent
 {
@@ -6,7 +6,7 @@ public abstract class MenuComponent
 
     public abstract void Remove(MenuComponent menuComponent);
 
-    public abstract void GetChild(int i);
+    public abstract MenuComponent GetChild(int i);
 
     public abstract string GetName();
 
@@ -17,4 +17,6 @@ public abstract class MenuComponent
     public abstract bool IsVegetarian();
 
     public abstract void Print();
+
+    public abstract IEnumerator<MenuComponent> CreateIterator();
 }

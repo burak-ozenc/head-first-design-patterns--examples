@@ -1,8 +1,8 @@
 ﻿using System.Collections;
-using Iterator.ObjectvilleDinerHouse_PancakeHouseMerge.Aggregates.Common;
-using Iterator.ObjectvilleDinerHouse_PancakeHouseMerge.Iterator.ConcreteIterator;
+using Iterator.MenuMerge.Aggregates.Common;
+using Iterator.MenuMerge.Iterator.ConcreteIterator;
 
-namespace Iterator.ObjectvilleDinerHouse_PancakeHouseMerge.Aggregates.PancakeHouseMenu;
+namespace Iterator.MenuMerge.Aggregates.PancakeHouseMenu;
 
 public class PancakeHouseMenu : IMenu
 {

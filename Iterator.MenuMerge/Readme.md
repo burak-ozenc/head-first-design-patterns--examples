@@ -1,4 +1,4 @@
-﻿# Chapter 9 - Part1 - ObjectVilleDinerHouse-PancakeHouseMerge 
+﻿# Chapter 9 - Part1 - ObjectVille DinerHouse - PancakeHouse Merge 
 
 ## Iterator Pattern
 

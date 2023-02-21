@@ -1,4 +1,4 @@
-﻿namespace CH9_2_Composite.AllMenuShop.Iterator;
+﻿namespace Composite.MultipleAndSubmenu.Iterator;
 
 public interface IIterator
 {

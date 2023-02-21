@@ -1,7 +1,7 @@
 ﻿
 
-using CH9_2_Composite.AllMenuShop;
-using CH9_2_Composite.AllMenuShop.Menu;
+using Composite.MultipleAndSubmenu;
+using Composite.MultipleAndSubmenu.Menu;
 
 MenuComponent pancakeHouseMenu = new Menu("PANCAKE HOUSE MENU","Breakfast");
 MenuComponent dinerMenu = new Menu("DINER MENU","Diner");
@@ -60,3 +60,6 @@ allMenus.Add(cafeMenu);
 Client client = new Client(allMenus);
 
 client.PrintMenu();
+Console.WriteLine();
+Console.WriteLine();
+client.PrintVegetarianMenu();

@@ -1,10 +1,10 @@
-﻿using System.Collections;
+﻿using Composite.MultipleAndSubmenu.Iterator;
 
-namespace CH9_2_Composite.AllMenuShop.Menu;
+namespace Composite.MultipleAndSubmenu.Menu;
 
 public class Menu : MenuComponent
 {
-    private ArrayList menuComponents = new();
+    private List<MenuComponent> menuComponents = new();
     private string Name;
     private string Description;
 
@@ -24,17 +24,18 @@ public class Menu : MenuComponent
         menuComponents.Remove(menuComponent);
     }
 
-    public override void GetChild(int i)
+    public override MenuComponent GetChild(int i)
     {
-        throw new NotImplementedException();
+        return menuComponents[i];
     }
 
     public override string GetName() => Name;
     
     public override string GetDescription() => Description;
+    
     public override double GetPrice()
     {
-        throw new NotImplementedException();
+        throw new NotSupportedException();
     }
 
     public override bool IsVegetarian()
@@ -48,11 +49,17 @@ public class Menu : MenuComponent
         Console.WriteLine("--" + GetDescription());
         Console.WriteLine("----------");
 
-        var enumerator = menuComponents.GetEnumerator();
+        using var enumerator = menuComponents.GetEnumerator();
         while (enumerator.MoveNext())
         {
-            var menuComponent = ((MenuComponent)enumerator.Current)!;
+            var menuComponent = enumerator.Current;
             menuComponent.Print();
         }
+    }
+    
+    public override IEnumerator<MenuComponent> CreateIterator()
+    {
+        return new CompositeIterator(menuComponents.GetEnumerator());
+        
     }
 }

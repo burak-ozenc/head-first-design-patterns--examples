@@ -1,8 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using Iterator.ObjectvilleDinerHouse_PancakeHouseMerge;
-using Iterator.ObjectvilleDinerHouse_PancakeHouseMerge.Aggregates.DinerMenu;
-using Iterator.ObjectvilleDinerHouse_PancakeHouseMerge.Aggregates.PancakeHouseMenu;
+using Iterator.MenuMerge;
+using Iterator.MenuMerge.Aggregates.DinerMenu;
+using Iterator.MenuMerge.Aggregates.PancakeHouseMenu;
 
 Console.WriteLine("Hello, World!");
 
