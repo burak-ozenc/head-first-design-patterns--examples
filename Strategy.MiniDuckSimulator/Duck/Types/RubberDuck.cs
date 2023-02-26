@@ -1,7 +1,5 @@
-﻿using MiniDuckSimulator.Behaviours.Abstractions;
-using MiniDuckSimulator.Behaviours.DynamicBehaviours.Fly;
+﻿using MiniDuckSimulator.Behaviours.DynamicBehaviours.Fly;
 using MiniDuckSimulator.Behaviours.DynamicBehaviours.Quack;
-using MiniDuckSimulator.Duck.Base;
 
 namespace MiniDuckSimulator.Duck.Types;
 
